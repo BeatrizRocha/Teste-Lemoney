@@ -1,0 +1,134 @@
+.whoTrusts-container { 
+  /* background:rgba(35, 43, 48, 0.94); */
+  height: 50vh;
+  width: 100%;  
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);
+  object-fit: contain;
+  padding-top: 5vh;
+  grid-template-rows: 1fr 2fr;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.whoTrusts-header{
+  color: #232B30;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 130.2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 14vh;
+}
+
+.whoTrusts-header-name{
+  color: #232B30;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  /* background: red; */
+}
+
+.whoTrusts-header-name > h1{
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.whoTrusts-header-options{
+  font-size: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 0.9fr 1fr;
+  grid-column-gap: 2vw;
+  flex-direction: column;
+  align-items: center;
+  /* background: green; */
+}
+
+.whoTrusts-header-options > h2{
+  flex-direction: row-reverse;
+  font-family: 'Playfair Display', sans-serif;
+  display: flex;
+}
+
+.whoTrusts-header-options > h2 > mark{
+  color: #F26538;
+  font-family: 'Playfair Display', sans-serif;
+  background-color: transparent;
+}
+
+.whoTrusts-body{
+  width: 100%;  
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.whoTrusts-background{
+  background-color: #FFFFFF;
+  height: 50vh;
+  width: 100%; 
+  mix-blend-mode: overlay;
+}
+
+.whoTrusts-container > h1 {
+  color: #FFFFFF;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 130.2%;
+  margin-top: -100px;
+  margin-left: 10vw;
+}
+
+.whoTrusts-container > p {
+  margin-top: 8px;
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 7vh;
+  margin-left: 10vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+.whoTrusts-container > h1 > mark {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 130.2%;
+  color: #F26538;
+  background-color: transparent;
+}
+
+.whoTrusts-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 960px) {
+  .whoTrusts-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .whoTrusts-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .whoTrusts-container > p {
+    font-size: 30px;
+  }
+}
