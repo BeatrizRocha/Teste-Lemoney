@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../media/images/logo.svg'
-import BrEn from '../media/images/br_en.svg'
 import './Navbar.css'
 
 function Navbar() {
@@ -42,17 +41,17 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Who Trusts?
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Join us
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Careers
                             </Link>
                         </li>

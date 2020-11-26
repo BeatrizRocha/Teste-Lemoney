@@ -1,5 +1,4 @@
 .careers-container { 
-  /* background:rgba(35, 43, 48, 0.94); */
   height: 50vh;
   width: 100%;  
   display: grid;
@@ -35,7 +34,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  /* background: red; */
 }
 
 .careers-header-name > h1{
@@ -49,7 +47,6 @@
   grid-column-gap: 1vw;
   flex-direction: column;
   align-items: center;
-  /* background: green; */
 }
 
 .careers-header-options > h2{

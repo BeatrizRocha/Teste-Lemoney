@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from './Button'
 import './WhoTrusts.css'
 import '../App.css';
 import Logos from '../media/images/logos.svg'
